@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Scraper Verified",
+    "version": "0.1",
+    "description":"Validation",
+    "content_scripts":[
+        {
+            "matches": ["<all_urls>"],
+            "js": ["validationScript.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup":"popup.html",
+        "default_title":"Validity"
+    },
+  "permissions": ["tabs"]
+}

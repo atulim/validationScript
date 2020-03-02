@@ -1,0 +1,1 @@
+alert('Validation has started') 
