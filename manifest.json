@@ -10,7 +10,7 @@
         }
     ],
     "browser_action": {
-        "default_popup":"popup.html",
+        "default_popup":"index.html",
         "default_title":"Validity"
     },
   "permissions": ["tabs"]
