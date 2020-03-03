@@ -13,5 +13,9 @@
         "default_popup":"index.html",
         "default_title":"Validity"
     },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "content_security_policy":"script-src 'self' 'sha256-nmZMo2VTihPZP15cwBxbYNbwBp3HT09DdVP1YmEkWTU='",
   "permissions": ["tabs"]
 }
